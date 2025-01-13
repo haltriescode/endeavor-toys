@@ -139,20 +139,33 @@ nav a:hover {
   .container_faq{
     display:flex;
     flex-direction: column;
-    
-  }
-  .faq_question{
-    font-weight: bold;
-    background-color: #0c5263;
-    padding: 5px;
-    margin: 5px;
   }
 
-  .faq_answer{
+  /* Accordion */
+  .accordion {
+    text-align: center;
+    font-weight: bold;
+    background-color: #0c5263;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #0c5263; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
     background-color:#1c191f;
-    padding: 5px;
-    margin: 5px;
-    
+    color: white;
+    overflow: hidden;
   }
 
   .card {
