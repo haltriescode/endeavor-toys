@@ -157,7 +157,8 @@ nav a:hover {
   }
   
   .active, .accordion:hover {
-    background-color: #0c5263; 
+    color:#221f26;
+    background-color: #f9b134; 
   }
   
   .panel {
